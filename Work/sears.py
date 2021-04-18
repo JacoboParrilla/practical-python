@@ -10,4 +10,4 @@ while num_bills * bill_thickness < sears_height:
 
 print('Number of days', day)
 print('Number of bills', num_bills)
-print('Final height', num_bills * bill_thickness)
+print('Final height', round(num_bills * bill_thickness,4))
